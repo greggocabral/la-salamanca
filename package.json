@@ -1,0 +1,17 @@
+{
+  "name": "la-salamanca",
+  "version": "1.0.0",
+  "description": "Static website for promoting land lots for sale",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve",
+    "dev": "npx serve -l 8000"
+  },
+  "keywords": [
+    "real-estate",
+    "land",
+    "static-site"
+  ],
+  "author": "",
+  "license": "ISC"
+}

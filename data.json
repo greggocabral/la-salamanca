@@ -1,0 +1,112 @@
+{
+  "siteTitle": "Lotes en Venta - La Salamanca",
+  "heroTitle": "Lotes en Venta",
+  "heroSubtitle": "Barrio La Salamanca",
+  "description": "Lotes desde 1750m² con red eléctrica aérea y alambrado de 3 hilos. Financiación propia disponible.",
+  "caracteristicasLoteo": [
+    "Lotes desde 1750m²",
+    "Red eléctrica aérea",
+    "Alambrado de 3 hilos"
+  ],
+  "formasPago": [
+    "Contado efectivo",
+    "Financiación propia hasta 6 cuotas"
+  ],
+  "contact": {
+    "phone": "+5491138067266",
+    "email": "barriolasalamancalf@gmail.com",
+    "whatsapp": "+5491138067266"
+  },
+  "lotes": [
+    {
+      "id": 1,
+      "nombre": "Del Potrero",
+      "precio": "$35,000 USD",
+      "superficie": "1750 m²",
+      "ubicacion": "Barrio La Salamanca",
+      "descripcion": "Excelente lote con vista panorámica y fácil acceso. Ideal para construir tu hogar en un entorno natural y tranquilo.",
+      "caracteristicas": [
+        "Red eléctrica aérea",
+        "Alambrado de 3 hilos",
+        "Vista panorámica",
+        "Fácil acceso"
+      ],
+      "imagen": "images/terreno-del-potrero.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "De La Cantera",
+      "precio": "$35,000 USD",
+      "superficie": "1750 m²",
+      "ubicacion": "Barrio La Salamanca",
+      "descripcion": "Lote en ubicación privilegiada con excelente orientación solar. Perfecto para tu proyecto de vivienda.",
+      "caracteristicas": [
+        "Red eléctrica aérea",
+        "Alambrado de 3 hilos",
+        "Excelente orientación",
+        "Terreno nivelado"
+      ],
+      "imagen": "images/terreno-de-la-cantera.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Del Tanque",
+      "precio": "$35,000 USD",
+      "superficie": "1750 m²",
+      "ubicacion": "Barrio La Salamanca",
+      "descripcion": "Terreno amplio con vegetación natural. Ubicación estratégica dentro del barrio con todos los servicios.",
+      "caracteristicas": [
+        "Red eléctrica aérea",
+        "Alambrado de 3 hilos",
+        "Vegetación natural",
+        "Ubicación estratégica"
+      ],
+      "imagen": "images/terreno-del-tanque.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Del Falso Caraguatá",
+      "precio": "$35,000 USD",
+      "superficie": "1750 m²",
+      "ubicacion": "Barrio La Salamanca",
+      "descripcion": "Hermoso lote rodeado de naturaleza. Espacio ideal para disfrutar de la tranquilidad del campo.",
+      "caracteristicas": [
+        "Red eléctrica aérea",
+        "Alambrado de 3 hilos",
+        "Entorno natural",
+        "Privacidad"
+      ],
+      "imagen": "images/terreno-del-falso-caraguata.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "De Los Troncos",
+      "precio": "$35,000 USD",
+      "superficie": "1750 m²",
+      "ubicacion": "Barrio La Salamanca",
+      "descripcion": "Lote esquinero con doble frente. Excelente para proyectos que requieren mayor visibilidad y acceso.",
+      "caracteristicas": [
+        "Red eléctrica aérea",
+        "Alambrado de 3 hilos",
+        "Lote esquinero",
+        "Doble frente"
+      ],
+      "imagen": "images/terreno-de-los-troncos.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Del Molino",
+      "precio": "$42,000 USD",
+      "superficie": "1750 m²",
+      "ubicacion": "Barrio La Salamanca",
+      "descripcion": "Terreno premium con excelentes características y ubicación privilegiada. Ideal para proyectos de alto valor.",
+      "caracteristicas": [
+        "Red eléctrica aérea",
+        "Alambrado de 3 hilos",
+        "Ubicación privilegiada",
+        "Terreno premium"
+      ],
+      "imagen": "images/terreno-del-molino.jpg"
+    }
+  ]
+}

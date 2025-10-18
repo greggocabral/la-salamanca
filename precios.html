@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Precios de lotes en venta en Barrio La Salamanca. Desde 1750m² con red eléctrica y financiación propia.">
+    <title>Precios - Lotes en Venta - Barrio La Salamanca</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="La Salamanca" class="logo-img">
+                <div class="logo-text">
+                    <div class="logo-text-top">Barrio</div>
+                    <div class="logo-text-bottom">La Salamanca</div>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Inicio</a>
+                <a href="precios.html" class="active">Precios</a>
+                <a href="index.html#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Precios Hero -->
+    <section class="precios-hero">
+        <div class="container">
+            <h1 class="page-title">Precios de Lotes</h1>
+            <p class="page-subtitle">Barrio La Salamanca</p>
+        </div>
+    </section>
+
+    <!-- Plano con Precios Section -->
+    <section class="plano-precios-section">
+        <div class="container">
+            <div class="plano-container">
+                <img src="images/plano-layout.png" alt="Plano del loteo La Salamanca" class="plano-img">
+            </div>
+
+            <!-- Resumen de Lotes -->
+            <div class="lotes-summary">
+                <h2 class="section-title">Lotes Disponibles</h2>
+                <div class="lotes-list">
+                    <!-- Los lotes se cargarán dinámicamente desde data.json -->
+                </div>
+            </div>
+
+            <!-- Información de Pago -->
+            <div class="info-pago-section">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h2 class="info-title">Formas de Pago</h2>
+                        <ul class="info-list">
+                            <!-- Se carga dinámicamente desde data.json -->
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h2 class="info-title">Características del Loteo</h2>
+                        <ul class="info-list">
+                            <!-- Se carga dinámicamente desde data.json -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Contacto -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>¿Interesado en algún lote?</h2>
+            <p>Contáctanos para más información y para coordinar una visita</p>
+            <a href="index.html#contacto" class="btn-primary">Contactar Ahora</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Barrio La Salamanca. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="precios.js"></script>
+</body>
+</html>

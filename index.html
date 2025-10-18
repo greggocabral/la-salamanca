@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lotes en venta en Barrio La Salamanca. Desde 1750m² con red eléctrica y financiación propia.">
+    <title>Lotes en Venta - Barrio La Salamanca</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="La Salamanca" class="logo-img">
+                <div class="logo-text">
+                    <div class="logo-text-top">Barrio</div>
+                    <div class="logo-text-bottom">La Salamanca</div>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Inicio</a>
+                <a href="precios.html">Precios</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h2 id="heroTitle">Lotes en Venta</h2>
+            <div class="hero-text">
+                <p class="hero-line" id="heroSubtitle">Barrio La Salamanca</p>
+                <p class="hero-line" id="heroLine2">Lotes desde 1750m²</p>
+                <p class="hero-line" id="heroLine3">Financiación propia disponible</p>
+            </div>
+            <div class="hero-buttons">
+                <a href="#plano" class="btn-primary">Ver Plano</a>
+                <a href="precios.html" class="btn-secondary">Ver Precios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características del Loteo Section -->
+    <section class="info-section">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card">
+                    <h2 class="info-title">Características del Loteo</h2>
+                    <ul class="info-list" id="caracteristicasLoteo">
+                        <!-- Se carga dinámicamente -->
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h2 class="info-title">Formas de Pago</h2>
+                    <ul class="info-list" id="formasPago">
+                        <!-- Se carga dinámicamente -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plano Section -->
+    <section class="plano-section" id="plano">
+        <div class="container">
+            <h2 class="section-title">Plano del Loteo</h2>
+            <div class="plano-container">
+                <img src="images/plano-layout.png" alt="Plano del loteo La Salamanca" class="plano-img">
+            </div>
+            <div class="plano-cta">
+                <p>¿Quieres conocer los precios de cada lote?</p>
+                <a href="precios.html" class="btn-primary">Ver Precios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lotes Section -->
+    <section class="lotes-section" id="lotes">
+        <div class="container">
+            <h2 class="section-title">Lotes Disponibles</h2>
+            <div class="lotes-grid" id="lotesContainer">
+                <!-- Los lotes se cargarán dinámicamente desde data.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <p>¿Interesado en alguno de nuestros lotes? ¡Contáctanos!</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">✉</span>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:" id="contactEmail">contacto@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">⊕</span>
+                        <div class="contact-details">
+                            <span class="contact-label">WhatsApp</span>
+                            <a href="https://wa.me/5491138067266" target="_blank">Enviar mensaje</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Lotes en Venta. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
