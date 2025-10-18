@@ -3,7 +3,8 @@
     "allow": [
       "WebFetch(domain:greggocabral.notion.site)",
       "Bash(cat data.json)",
-      "Bash(git init)"
+      "Bash(git init)",
+      "Bash(git commit -m \"Initial commit: La Salamanca - Lotes en Venta website\n\n- Static website for land lot sales\n- Responsive design with brand colors\n- JSON-based content management\n- 6 available lots with images\n- Contact section (Email & WhatsApp)\n- Ready for Vercel deployment\")"
     ],
     "deny": [],
     "ask": []
